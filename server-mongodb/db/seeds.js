@@ -15,11 +15,11 @@ db.birds.insertMany([
     { name: "Starling", colour: "Black with Metalic Sheen", location: "In the Late Summer Sky", number: 500 },
     { name: "Seaguls", colour: "White", location: "Near your food", number: 50 },
     { name: "Zazu", colour: "Blue", location: "The Pride Lands", number: 1 },
-])
+]);
 
 db.ornithologists.insertMany([
     { name: 'Cerise' },
     { name: 'Abi' },
     { name: 'Jasmin' },
     { name: 'David Attenborough' }
-])
+]);

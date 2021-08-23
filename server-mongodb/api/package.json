@@ -1,0 +1,29 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "Cerise and Abi's bird watching helper",
+    "main": "index.js",
+    "scripts": {
+        "test": "Jest",
+        "start": "node index.js"
+    },
+    "keywords": [
+        "Birds",
+        "Cerise",
+        "Abi"
+    ],
+    "author": "Cerise and Abi",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "mongodb": "^4.1.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cerise-at/birds.git"
+    }
+}

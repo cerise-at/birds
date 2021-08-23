@@ -14,8 +14,8 @@ const birdRoutes = require('./controllers/birds')
 app.use('/birds', birdRoutes)
 
 //filling with ornathologist routes
-const ornithologistsRoutes = require('./controllers/ornithologists')
-app.use('./ornithologists', ornithologistsRoutes)
+// const ornithologistsRoutes = require('./controllers/ornithologists')
+// app.use('./ornithologists', ornithologistsRoutes)
 
 
 module.exports = app
